@@ -68,7 +68,7 @@ nlp-chatbot/
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/nlp-chatbot.git
+git clone https:/https://github.com/gaurigiri777-prog/github.com//nlp-chatbot.git
 cd nlp-chatbot
 
 2️⃣ Install Dependencies
