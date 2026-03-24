@@ -94,15 +94,13 @@ Model Type	            Rule-based chatbot
 
 🧩 How It Works (Simplified)
 
-User input is cleaned, tokenized, and stemmed
+1. User input is cleaned, tokenized, and stemmed
 
-All patterns (training phrases) are vectorized
+2. All patterns (training phrases) are vectorized
 
-Cosine similarity finds the closest matching intent
+3. A random response from that intent is sent back
 
-A random response from that intent is sent back
-
-If no pattern matches → default fallback response
+4. If no pattern matches → default fallback response
 
 
 📈 Future Enhancements
