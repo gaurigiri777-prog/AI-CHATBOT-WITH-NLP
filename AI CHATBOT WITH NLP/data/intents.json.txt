@@ -1,0 +1,93 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "What's up?", "Hii chatbot"],
+      "responses": ["Hello!", "Hi there!", "Hey! How can I help you today?"]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "Talk to you later", "See you soon"],
+      "responses": ["Goodbye!", "See you later!", "Take care!"]
+    },
+
+    {
+      "tag": "name",
+      "patterns": ["What is your name?", "Who are you?", "Tell me your name", "What's your identity?"],
+      "responses": ["I'm your NLP chatbot!", "You can call me ChatBot 🤖"]
+    },
+
+    {
+      "tag": "help",
+      "patterns": ["Can you help me?", "I need help", "I have a doubt", "Can you solve my query?"],
+      "responses": ["Sure! Tell me your question.", "Of course, I’m here to help!"]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks", "Thanks a lot", "I appreciate it"],
+      "responses": ["You're welcome!", "Happy to help!", "Anytime!"]
+    },
+
+    {
+      "tag": "age",
+      "patterns": ["How old are you?", "What is your age?", "Tell me your age"],
+      "responses": ["I don't have an age like humans, but I'm always up to date!"]
+    },
+
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather?", "Is it raining?", "Today's weather?", "How is the climate today?"],
+      "responses": ["I can't check live weather, but you can check it using any weather app!"]
+    },
+
+    {
+      "tag": "creator",
+      "patterns": ["Who created you?", "Who made you?", "Who built you?"],
+      "responses": ["I was created using Python and NLP techniques by my developer!"]
+    },
+
+    {
+      "tag": "chatbot_work",
+      "patterns": ["How do you work?", "What can you do?", "How do you reply?", "How do chatbots work?"],
+      "responses": ["I use NLP to understand your message and give the best response!"]
+    },
+
+    {
+      "tag": "jokes",
+      "patterns": ["Tell me a joke", "Make me laugh", "Say something funny"],
+      "responses": ["Why don’t programmers like nature? Too many bugs! 😄", "I would tell you a UDP joke, but you might not get it."]
+    },
+
+    {
+      "tag": "time",
+      "patterns": ["What time is it?", "Tell me the time", "Current time please"],
+      "responses": ["I can't check the exact time, but your device clock can!"]
+    },
+
+    {
+      "tag": "date",
+      "patterns": ["What's today's date?", "Tell me today's date", "What day is it?"],
+      "responses": ["Please check your system calendar for accurate date!"]
+    },
+
+    {
+      "tag": "motivation",
+      "patterns": ["Motivate me", "I am feeling low", "Give me motivation", "Say something positive"],
+      "responses": ["Believe in yourself! You're capable of amazing things. 💪", "Every day is a new beginning. Keep going!"]
+    },
+
+    {
+      "tag": "study_tips",
+      "patterns": ["How to study better?", "Give me study tips", "How to focus on study"],
+      "responses": ["Take short breaks, stay organized, and practice regularly. You’ve got this! 📚"]
+    },
+
+    {
+      "tag": "fun",
+      "patterns": ["I'm bored", "Entertain me", "What can we do for fun?"],
+      "responses": ["You can try learning something new, listening to music, or asking me for a joke! 😄"]
+    }
+  ]
+}
